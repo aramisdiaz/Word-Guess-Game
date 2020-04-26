@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JOJO's Bizarre Hangman Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Asset' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<link rel="icon" href="https://toppng.com/uploads/preview/jojo-bizarre-adventure-letters-png-clip-black-and-white-jojo-bizarre-adventure-diamond-is-unbreakable-logo-11562920305hynv7c5qf2.png">
+</head>
+
+    <body>
+
+		<div class="heading">
+            <h1>JOJO's Bizarre Hangman Game</h1>
+        </div>
+
+        <div class="background">
+            <div class="container">
+
+
+				<h2>Press Any Key To Play!</h2>
+                <div>
+                    <img id="image" src="./assets/images/jjbalogo.png" width="40%" height="200">
+                </div>
+
+
+				<div>
+                    <h3 id="currentword">_ _ _ _ _</h3>
+                </div>
+                <div id="scoreboard">
+
+					<div class="sidebar">
+                        <h3>GUESSES LEFT:
+                            <span id="guessesremaining"></span>
+                        </h3>
+                    </div>
+
+
+					<div class="sidebar">
+                        <h3>WINS:
+                            <span id="winstracker"></span>
+                        </h3>
+                    </div>
+
+					<div class="sidebar">
+                        <h3>LOSSES:
+                            <span id="losstracker"></span>
+                        </h3>
+                    </div>
+
+                    <div class="sidebar">
+                        <h3>INCORRECT LETTERS:
+                            <span id="playerguesses"></span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <audio id="joestar">
+                <source src="./assets/audio/joestar.mp3" type="audio/mp3">
+			</audio>
+			
+            <audio id="jonathan">
+                <source src="./assets/audio/jonathan.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="joseph">
+                <source src="./assets/audio/joseph.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="jotaro">
+                <source src="./assets/audio/jotaro.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="josuke">
+                <source src="./assets/audio/josuke.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="giorno">
+                <source src="./assets/audio/giorno.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="jolyne">
+                <source src="./assets/audio/jolyne.mp3" type="audio/mp3">
+			</audio>
+
+			<audio id="lose">
+                <source src="./assets/audio/lose.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+
+
+
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
+
+</html>
